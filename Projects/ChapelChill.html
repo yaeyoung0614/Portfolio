@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yae Young Kim</title>
+    <link rel="stylesheet" href="/Projects/ChapelChill.css" />
+    <link rel="icon" href="/yakgwa_png.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Gamja Flower"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="mainHeader">
+        <div class="leftNavigation">
+          <div id="name">
+            <a href="/index.html" class="link"><p>Yae Young</p></a>
+          </div>
+        </div>
+        <div class="rightNavigation">
+          <div>
+            <a href="/aboutme.html" class="link"><p>About Me</p></a>
+          </div>
+          <div>
+            <a
+              href="https://drive.google.com/file/d/16BnRW4pb0wsqC6Ubz3ntz5acDpUBd5hE/view?usp=sharing"
+              class="link"
+              target="_blank"
+              ><p>Resume</p></a
+            >
+          </div>
+          <div>
+            <a href="/portfolio.html" class="link"><p>Portfolio</p></a>
+          </div>
+          <div>
+            <a href="/contact.html" class="link"><p>Contact</p></a>
+          </div>
+          <div class="socials">
+            <div>
+              <a
+                href="https://www.instagram.com/yaeyyoung/?hl=en"
+                target="_blank"
+                ><img src="/Instagram.webp" id="Instagram"
+              /></a>
+            </div>
+            <div>
+              <a href="https://www.gmail.com/" target="_blank"
+                ><img src="/Mail.png" id="Gmail"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <button class="back-to-top" onclick="scrollToTop()">Back to Top</button>
+
+    <section class="preview">
+      <div class="preview-content">
+        <h2>Chapel Chill</h2>
+        <img src="/Chapelchilllogo.png" />
+        <!-- change to chapelchilllogo later -->
+        <p>
+          For Chapel Chill, I designed a high-fidelity prototype for the Chapel
+          Chill app, focusing on a main page displaying nearby social events, an
+          event details screen, and a personal events page that I added to
+          enhance the app's functionality. The design incorporated a vibrant yet
+          clean aesthetic, reflecting the app's goal of promoting a fun and safe
+          environment for college students, while adhering to Apple's Human
+          Interface Guidelines to ensure a seamless user experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="statement-of-work">
+      <div class="sow-content">
+        <div class="sow-text">
+          <h2>STATEMENT OF WORK</h2>
+          <p>
+            For my CamEra project, I took full ownership of the development
+            process, ensuring a comprehensive approach from concept to delivery.
+            My responsibilities included researching the most popular camera
+            brands and analyzing their key features, such as picture quality and
+            functionality. I designed the app’s interface using Figma to create
+            an intuitive user experience, then tested and refined the
+            application to ensure it met user needs. The project deliverables
+            included user research, a functional app prototype, high-quality
+            mockups, and thorough documentation covering the research and
+            development stages.
+          </p>
+        </div>
+
+        <div class="sow-grid">
+          <div class="grid-item">
+            <h3>ROLE</h3>
+            <p>Lead UI Designer<br />UX Researcher</p>
+          </div>
+          <div class="grid-item">
+            <h3>TOOLS</h3>
+            <p>Figma</p>
+          </div>
+          <div class="grid-item">
+            <h3>DURATION</h3>
+            <p>3 days</p>
+          </div>
+          <div class="grid-item">
+            <h3>OBJECTIVE</h3>
+            <p>Club technical interview</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <img
+      style="
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+        padding-top: 80px;
+      "
+      src="/Chapelchilllogo1.png"
+    />
+
+    <div class="iframe-container">
+      <iframe
+        style="border: 1px solid rgba(0, 0, 0, 0.1)"
+        width="800"
+        height="450"
+        src="https://embed.figma.com/design/RhtU6QLWlQY6w0MWC5yMAw/Chapel-Chill?node-id=1-2&embed-host=share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="logo">
+          <img src="/footerImage.png" alt="Logo" />
+        </div>
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="/aboutme.html">About</a></li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/16BnRW4pb0wsqC6Ubz3ntz5acDpUBd5hE/view"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <a
+            href="mailto:yaeyoung0614@gmail.com?subject=Subject%20Here&body=Message%20Here"
+            class="social-icon"
+            >Email</a
+          >
+          <a href="#" class="social-icon">Instagram</a>
+          <a href="https://www.linkedin.com/in/yaeyyoung" class="social-icon"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Yae Young Kim. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+
+    window.onscroll = function () {
+      const button = document.querySelector(".back-to-top");
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        button.style.display = "block";
+      } else {
+        button.style.display = "none";
+      }
+    };
+  </script>
+</html>
